@@ -19,6 +19,6 @@
 *.app
 *.qmake.stash
 *.qmake.cache
-
+*.DS_Store
 # ---- Qt moc, uic, rcc gene
 
