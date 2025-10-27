@@ -19,6 +19,84 @@
 *.app
 *.qmake.stash
 *.qmake.cache
-*.DS_Store
-# ---- Qt moc, uic, rcc gene
+
+# ---- Qt moc, uic, rcc generated files ----
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qm
+*.qrc.dep
+
+# ---- Qt Creator specific files ----
+*.pro.user
+*.pro.user.*
+*.creator.user
+*.creator.user.*
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+*.qbs.user
+*.qbs.user.*
+
+# ---- CMake build folders ----
+/build/
+/build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# ---- CLion / JetBrains IDE ----
+.idea/
+cmake-build-*/
+*.iml
+
+# ---- macOS system cruft ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ---- Backup / temporary ----
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# ---- Logs ----
+*.log
+
+# ---- Python virtualenvs (if you use scripts) ----
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# ---- Others (optional) ----
+# Dist / release folders
+release/
+debug/
+bin/
+obj/
+
+# Ignore user-specific configuration (Qt Creator, etc.)
+*.user
+
+# ---- macOS Qt deployment output ----
+*.dSYM/
+*.plist
+
+# =======================================
+# End of .gitignore
+# =======================================
 
