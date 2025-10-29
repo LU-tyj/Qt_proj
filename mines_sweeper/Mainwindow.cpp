@@ -14,7 +14,7 @@ const int ROWS = 15;
 const int BLOCK_SIZE = 30;
 const int MARGIN = 10;
 const int MinesNum = 30;
-const QString path = "../../";
+const QString path = "../../image/"; // 请自己修改
 
 Mainwindow::Mainwindow(QWidget *parent)
     : QMainWindow(parent)
