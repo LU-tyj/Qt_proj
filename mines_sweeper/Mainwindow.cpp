@@ -50,7 +50,7 @@ void Mainwindow::paintEvent(QPaintEvent *event) {
             if (isOpened[i][j] == 0)
                 painter.drawPixmap(rect, QPixmap(path + "initial.png"));
 
-            // 插旗
+        // 插旗
             else if (isOpened[i][j] == 2)
                 painter.drawPixmap(rect, QPixmap(path +"flag.png"));
 
